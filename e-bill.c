@@ -28,6 +28,7 @@ int main (){
         g(59, 2);s("%f", &previous_reading);
         g(19, 4);s("%f", &present_counter);
         g(59, 4);s("%f", &previous_counter);
+       
         //1.1
         if (present_reading == previous_reading){
             if (present_counter == previous_counter){
